@@ -1,2 +1,2 @@
 # flink-gradle
-Small sample flink application using Java 8 and gradle
+This is a simple word count example Flink application which uses Java 8 Lambdas built using gradle. As the flink documentation explains [here](https://ci.apache.org/projects/flink/flink-docs-release-1.2/dev/java8.html#compiler-limitations), the use of lambdas in flink is complicated by the fact that flink relies on generic type information which is included by the Eclipse compiler, but omitted by the Oracle and OpenJDK compilers. There are several examples of how to build a project with the Eclipse compiler using maven, but I could not find a clear example using Gradle.
